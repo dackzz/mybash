@@ -8,7 +8,7 @@ make
 ./mybash
 ```
 
-Los archivos principales que implementamos son:
+Los archivos principales implementados son:
 
 * `command.c`: define los TADs `scommand` y `pipeline`, que son la base para poder representar los comandos y armar nuestro propio bash.
 * `execute.c`: es el corazón del programa, se encarga de ejecutar los comandos de los pipelines usando syscalls, haciendo redirecciones de entrada/salida y conectando las pipes entre sí.
